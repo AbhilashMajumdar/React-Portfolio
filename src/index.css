@@ -1,0 +1,432 @@
+/* navbar  */
+/* for 1024px */
+@media only screen and (max-width: 1024px) {
+  .navbar .navbar-brand {
+    font-size: 38px;
+  }
+
+  .navbar .nav-link {
+    font-size: 16px;
+    padding-right: 5px;
+  }
+}
+
+/* for 991px */
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-nav {
+    min-height: 93vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar .nav-link {
+    font-size: 20px !important;
+  }
+
+  .navbar .hamburger {
+    margin-bottom: 10px !important;
+  }
+
+  .navbar .nav-item {
+    padding: 0;
+    margin-top: 20px;
+  }
+}
+
+/* 768px  */
+@media only screen and (max-width: 768px) {
+  /* .navbar .navbar-nav {
+    justify-content: start !important;
+  } */
+}
+
+/* 480px  */
+@media only screen and (max-width: 480px) {
+  .navbar .navbar-nav {
+    justify-content: start !important;
+  }
+}
+
+/* header-container  */
+/* for 1280px */
+@media only screen and (max-width: 1280px) {
+  .header-container .heading h1 {
+    font-size: 55px;
+  }
+
+  .header-container .header-body h3 {
+    font-size: 38px;
+  }
+}
+
+/* for 1024px */
+@media only screen and (max-width: 1024px) {
+  .header-container .heading h1 {
+    font-size: 50px;
+  }
+
+  .header-container .header-body h3 {
+    font-size: 30px;
+  }
+
+  .header-container .header-btn .download-btn {
+    font-size: 18px;
+    letter-spacing: 0.1ch;
+  }
+}
+
+/* for 768px */
+@media only screen and (max-width: 768px) {
+  .header-container .heading h1 {
+    letter-spacing: 0.1ch;
+  }
+
+  .header-container .header-body h3 {
+    font-size: 25px;
+  }
+
+  .header-container .header-icon svg {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .header-container .header-btn .download-btn {
+    width: 45%;
+    height: 40px;
+    letter-spacing: 0.1ch;
+  }
+}
+
+/* for 480px  */
+@media only screen and (max-width: 480px) {
+  .header-container .heading h1 {
+    font-size: 35px;
+    letter-spacing: 0ch;
+  }
+
+  .header-container .header-body h3 {
+    font-size: 22px;
+    letter-spacing: 0.1ch;
+  }
+
+  .header-container .header-icon svg {
+    width: 25px !important;
+    height: 25px !important;
+  }
+
+  .header-container .header-btn .download-btn {
+    width: 45%;
+    height: 40px;
+    letter-spacing: 0.1ch;
+  }
+}
+
+/* .heading-container  */
+/* 480px  */
+@media only screen and (max-width: 480px) {
+  .heading-container .heading h1 {
+    font-size: 35px;
+    letter-spacing: 0ch;
+  }
+}
+
+/* about */
+/* for 1024px */
+@media only screen and (max-width: 1024px) {
+  .about-container img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-container .about p {
+    font-size: 15px;
+    letter-spacing: 0ch;
+  }
+
+  .about-container span {
+    font-size: 15px;
+  }
+
+  .about-container .value {
+    font-size: 13px;
+  }
+}
+
+/* for 480px */
+@media only screen and (max-width: 480px) {
+  .about-container {
+    /* margin-top: 20px !important; */
+    margin-bottom: 30px !important;
+  }
+  .about-container .my-3 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .about-section {
+    min-height: 95vh !important;
+  }
+
+  .about-container img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .about-container .img-div {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .about-container .about p {
+    font-size: 14px !important;
+  }
+}
+
+/* experience-container  */
+/* for 480px */
+@media only screen and (max-width: 480px) {
+  .experience-container h5 {
+    font-size: 1rem;
+  }
+
+  .experience-container h6 {
+    font-size: 0.75rem;
+  }
+
+  .experience-container .vertical-timeline-element-date {
+    font-size: 13px !important;
+    font-weight: normal;
+  }
+}
+
+/* education-container  */
+/* for 480px */
+@media only screen and (max-width: 480px) {
+  .education-container h5 {
+    font-size: 1rem;
+  }
+
+  .education-container h6 {
+    font-size: 0.75rem;
+  }
+
+  .education-container .vertical-timeline-element-date {
+    font-size: 13px !important;
+    font-weight: normal;
+  }
+}
+
+/* skills-container  */
+/* 768px  */
+@media only screen and (max-width: 768px) {
+  .skills-container .skills {
+    margin-bottom: 50px !important;
+  }
+}
+
+/* 480px  */
+@media only screen and (max-width: 480px) {
+  .skills-container .row {
+    margin-bottom: 20px !important;
+  }
+
+  .skills-container .col-5 {
+    width: 36% !important;
+  }
+}
+
+/* project-container  */
+/* for 1024px */
+@media only screen and (max-width: 1024px) {
+  .projects-container .project-info h6 {
+    font-size: 16px;
+  }
+  .projects-container .project-info p {
+    font-size: 16px;
+    /* margin-top: 0.5rem !important; */
+    /* margin-bottom: 0.5rem !important; */
+  }
+
+  .projects-container .project-info div h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+
+  .projects-container {
+    /* margin: 0 !important; */
+    padding-top: 20px;
+  }
+}
+
+/* for 991px */
+@media only screen and (max-width: 991px) {
+  .projects-container .project-info div h1 {
+    margin-top: 50px !important;
+    margin-bottom: 20px !important;
+    padding-bottom: 10px !important;
+    font-size: 33px;
+  }
+
+  .projects-container .project-info p {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .projects-container .project-info {
+    margin-top: 30px;
+  }
+}
+
+/* for 480px */
+@media only screen and (max-width: 480px) {
+  .projects-container .project-info div h1 {
+    font-size: 21px;
+    letter-spacing: 0;
+  }
+
+  .projects-container .project-info p {
+    font-size: 14px;
+  }
+
+  .projects-container .project-info {
+    margin-top: 0px !important;
+    padding: 0 !important;
+  }
+
+  .projects-container {
+    margin-top: 0px !important;
+    /* margin-bottom: 70px !important; */
+  }
+
+  .projects-container .project-title div {
+    letter-spacing: 0ch;
+    padding: 7px 0;
+  }
+
+  .projects-container .project-info h6 {
+    font-size: 14px !important;
+  }
+
+  .projects-container .project-btn {
+    text-align: center;
+  }
+}
+
+/* achievement container  */
+/* 1280px  */
+@media only screen and (max-width: 1280px) {
+  .achievement-container .achievement-info img {
+    width: 230px;
+    height: 150px;
+  }
+}
+/* 1024px  */
+@media only screen and (max-width: 1024px) {
+  .achievement-container .achievement-info img {
+    width: 200px;
+    height: 140px;
+  }
+
+  .achievement-container .achievement-info p {
+    margin-bottom: 0 !important;
+    font-size: 16px;
+  }
+}
+
+/* 991px  */
+@media only screen and (max-width: 992px) {
+  .achievement-container .achievement-info {
+    margin-top: 60px !important;
+  }
+}
+
+/* for 480px */
+@media only screen and (max-width: 480px) {
+  .achievement-container .achievement-info h1 {
+    font-size: 21px;
+    letter-spacing: 0;
+  }
+
+  .achievement-container .achievement-info {
+    margin: 15px 0 10px 0 !important;
+    padding: 0 !important;
+  }
+
+  .achievement-container {
+    margin-top: 0px !important;
+  }
+
+  .achievement-container .achievement-info img {
+    width: 80%;
+    height: 180px;
+    margin-bottom: 10px;
+  }
+
+  .achievement-container .achievement-img,
+  .achievement-data {
+    text-align: center;
+  }
+
+  .achievement-container .justify-content-between {
+    justify-content: center !important;
+  }
+
+  .achievement-container .achievement-btn {
+    text-align: center;
+  }
+
+  .achievement-container .achievement-heading {
+    margin-top: 10px !important;
+  }
+
+  .achievement-container .achievement-heading div {
+    letter-spacing: 0ch;
+    padding: 7px 0;
+  }
+
+  .achievement-container .achievement-info p {
+    font-size: 15px;
+  }
+}
+
+/* certifications-container  */
+/* for 480px */
+@media only screen and (max-width: 480px) {
+  .certifications-container h5 {
+    font-size: 1rem;
+  }
+
+  .certifications-container h6 {
+    font-size: 0.75rem;
+  }
+
+  .certifications-container .vertical-timeline-element-date {
+    font-size: 13px !important;
+    font-weight: normal;
+  }
+
+  .certifications-container .certificate-btn button {
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #f2ab00;
+    color: white;
+    margin-top: 10px;
+  }
+  .certifications-container {
+    margin-bottom: 100px !important;
+  }
+
+  .contact-container {
+    min-height: 68vh !important;
+  }
+}
+
+/* .footer-container  */
+/* for 480px */
+@media only screen and (max-width: 480px) {
+  .footer-container h5 {
+    font-size: 15px !important;
+  }
+}

@@ -1,0 +1,509 @@
+/* logo  */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+/* .great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* heading  */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+/* .abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+/* .merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+} */
+
+/* paragraph  */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row,
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-style: normal;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-lg-3,
+.col-lg-4 {
+  padding: 0;
+}
+
+h1 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Navbar  */
+
+.navbar {
+  /* background-color: transparent; */
+  background-color: black;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.navbar .navbar-brand {
+  font-family: "Great Vibes", cursive;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 42px;
+  color: #f2ab00;
+}
+
+.navbar .nav-link {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #f2ab00;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.navbar .nav-link, .navbar-brand{
+  cursor: pointer;
+}
+
+.navbar .nav-item .active{
+  border-bottom: 3px solid #f2ab00;
+}
+
+/* header-container  */
+.header-container {
+  display: flex;
+  min-height: 98vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container .heading h1 {
+  font-size: 60px;
+  color: #f2ab00;
+  letter-spacing: 0.2ch;
+  /* font-family: "Merriweather", serif; */
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-container .header-body h3 {
+  font-size: 40px;
+  color: #f2ab00;
+  /* font-family: "Lora", serif; */
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  letter-spacing: 0.2ch;
+  font-style: normal;
+}
+
+.header-container .header-body h3 > span {
+  color: white;
+}
+
+.header-container .header-social .header-icon {
+  color: white;
+  margin-right: 20px;
+}
+
+.header-container .header-social .header-icon:hover {
+  color: #f2ab00;
+}
+
+.header-container .header-btn .download-btn {
+  width: 25%;
+  height: 50px;
+  border-radius: 25px;
+  background-color: transparent;
+  font-size: 20px;
+  color: white;
+  border: 2px solid #f2ab00;
+  letter-spacing: 0.1ch;
+}
+
+.header-container .header-btn .download-btn:hover {
+  background-color: #f2ab00;
+  border: 2px solid white;
+}
+
+/* heading-container  */
+.heading-container .heading h1 {
+  font-size: 45px;
+  color: #f2ab00;
+  letter-spacing: 0.1ch;
+  /* font-family: "Merriweather", serif; */
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* about-container  */
+.about-section {
+  min-height: 93vh;
+}
+
+.about-container img {
+  width: 280px;
+  height: 280px;
+  border-radius: 25px;
+}
+
+.about-container img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.about-container .about:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.about-container .about p {
+  font-style: normal;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.1ch;
+}
+
+.about-container span {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color: #f2ab00;
+}
+
+.about-container .value {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: white;
+}
+
+/* skills-container  */
+.skills-container {
+  min-height: 90vh;
+  margin-bottom: 60px !important;
+}
+
+.skills-container .skills {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.skills-container .skills:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.skills-container .row {
+  margin-bottom: 50px !important;
+}
+
+/* experience-container  */
+.experience-container {
+  min-height: 90vh;
+}
+
+.experience-container
+  .vertical-timeline--animate
+  .vertical-timeline-element-content.bounce-in {
+  background: transparent;
+}
+
+.experience-container
+  .vertical-timeline--animate
+  .vertical-timeline-element-content.bounce-in:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.experience-container .vertical-timeline-element-date {
+  /* color: #f2ab00; */
+  color: white !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+}
+
+.experience-container h5 {
+  color: #f2ab00;
+}
+
+/* education-container  */
+.education-container {
+  min-height: 90vh;
+}
+
+.education-container
+  .vertical-timeline--animate
+  .vertical-timeline-element-content.bounce-in {
+  background: transparent;
+}
+
+.education-container
+  .vertical-timeline--animate
+  .vertical-timeline-element-content.bounce-in:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.education-container .vertical-timeline-element-date {
+  /* color: #f2ab00; */
+  color: white !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+}
+
+.education-container h5 {
+  color: #f2ab00;
+}
+
+.education-container .education {
+  margin-bottom: 100px !important;
+}
+
+/* projects-container  */
+.projects-container {
+  min-height: 85vh;
+}
+
+.projects-container .project-title div {
+  cursor: pointer;
+  color: white;
+  font-family: "Merriweather", serif;
+  letter-spacing: 0.1ch;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+/* .projects-container .projects{
+  height: 80vh;
+} */
+
+.projects-container .project-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-container .project-info div h1 {
+  color: #f2ab00;
+  letter-spacing: 0.1ch;
+  margin-bottom: 20px;
+  font-size: 30px;
+  padding-bottom: 5px;
+  font-family: "Merriweather", serif;
+  border-bottom: 1px solid #f2ab00;
+}
+
+.projects-container .project-info h6 {
+  font-size: 18px;
+}
+
+.projects-container .project-info p {
+  font-size: 18px;
+}
+
+.projects-container .project-info span {
+  color: #f2ab00;
+}
+
+.projects-container .project-info button {
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: transparent;
+  border: 2px solid #f2ab00;
+  color: white;
+}
+
+.projects-container .project-info button:hover {
+  background-color: #f2ab00;
+  border: 2px solid white;
+}
+
+.projects-container .project-info:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/* achievement-container  */
+
+.achievement-container {
+  min-height: 85vh;
+}
+.achievement-container .achievement-heading div {
+  cursor: pointer;
+  color: white;
+  font-family: "Merriweather", serif;
+  letter-spacing: 0.1ch;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.achievement-container .achievement-info h1 {
+  color: #f2ab00;
+  letter-spacing: 0.1ch;
+  margin: 15px 0 15px 0;
+  font-size: 30px;
+  padding-bottom: 5px;
+  font-family: "Merriweather", serif;
+  border-bottom: 1px solid #f2ab00;
+}
+
+.achievement-container .achievement-info p {
+  font-size: 18px;
+  margin-bottom: 8px !important;
+  color: white;
+}
+
+.achievement-container .achievement-info button {
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: transparent;
+  border: 2px solid #f2ab00;
+  color: white;
+}
+
+.achievement-container .achievement-info button:hover {
+  background-color: #f2ab00;
+  border: 2px solid white;
+}
+
+.achievement-container .achievement-info img {
+  width: 280px;
+  height: 200px;
+}
+
+.achievement-container .achievement-info:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/* certifications-container  */
+.certifications-container {
+  min-height: 90vh;
+}
+
+.certifications-container
+  .vertical-timeline--animate
+  .vertical-timeline-element-content.bounce-in {
+  background: transparent;
+}
+
+.certifications-container
+  .vertical-timeline--animate
+  .vertical-timeline-element-content.bounce-in:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.certifications-container .vertical-timeline-element-date {
+  color: white !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+}
+
+.certifications-container h5 {
+  color: #f2ab00;
+}
+
+.certifications-container .certificate-btn button {
+  width: 200px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: transparent;
+  border: 2px solid #f2ab00;
+  color: white;
+  margin-top: 10px;
+}
+
+.certifications-container .certificate-btn button:hover {
+  background-color: #f2ab00;
+  border: 2px solid white;
+}
+
+
+/* .contact-container  */
+.contact-container {
+  min-height: 77vh;
+}
+
+.contact-container label{
+  color: #f2ab00;
+  font-family: "Merriweather, serif";
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.contact-container ::placeholder{
+  font-family: "Merriweather, serif";
+  font-size: 15px;
+  text-align: center;
+}
+
+.contact-container p{
+  color: white !important;
+}
+
+
+/* react-alert  */
+#__react-alert__ div div div {
+  width: auto !important;
+}
+
+
+/* footer-container  */
+.footer-container {
+  padding: 20px 0;
+}
+
+.footer-container h5 {
+  color: #f2ab00;
+}
+
+/* loader  */
+.loader-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
